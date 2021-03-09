@@ -12,10 +12,10 @@ int main()
 {
     using namespace Graph_lib;
 
-    int xmax = 1280;
-    int ymax = 720;
-
-    int x_orig = xmax/2;
+    int xmax = 600;
+    int ymax = 400;
+ 
+ 	int x_orig = xmax/2;
     int y_orig = ymax/2;
 
     int rmin = -11;
@@ -23,7 +23,7 @@ int main()
     
     int n_points = 400;
 
-    Simple_window win {Point{100,100}, xmax, ymax, "Canvas"};
+    Simple_window win {Point{100,100}, xmax, ymax, "My window"};
 
 	Point origo {x_orig, y_orig};
 
